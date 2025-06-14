@@ -1,0 +1,15 @@
+{
+  "name": "ci-cd-demo-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app for CI/CD using GitHub Actions and Docker",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"No real tests yet\" && exit 0"
+  },
+  "author": "Prem",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
