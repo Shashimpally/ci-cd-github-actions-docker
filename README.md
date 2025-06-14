@@ -76,9 +76,7 @@ Pull the Docker image from my Docker Hub account:
 
 bash
 docker pull shashikumar02/ci-cd-demo:latest
-`
 
-📦 [Docker Hub: shashikumar02/ci-cd-demo](https://hub.docker.com/r/shashikumar02/ci-cd-demo)
 
 ---
 
