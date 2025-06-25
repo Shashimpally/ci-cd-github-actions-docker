@@ -1,3 +1,6 @@
+![CI/CD Pipeline](https://github.com/shashimpally/ci-cd-github-actions-docker/actions/workflows/ci-cd.yml/badge.svg)
+
+
 # 🚀 CI/CD Pipeline with GitHub Actions & Docker
 
 This is a real-time DevOps project that demonstrates how to set up a full *CI/CD pipeline* using *GitHub Actions, **Docker, and **Minikube* (for local Kubernetes deployment). No cloud is needed — everything runs locally.
