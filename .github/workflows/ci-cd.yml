@@ -22,6 +22,12 @@ jobs:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
 
+        - name: Run tests
+        run: |
+          echo "Running tests..."
+          npm install
+          npm test
+
       - name: Build and Push Docker image
         uses: docker/build-push-action@v5
         with:
