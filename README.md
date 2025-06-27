@@ -91,7 +91,7 @@ docker pull shashikumar02/ci-cd-demo:latest
 | ci-cd-pipeline with Github action and docker.png | objective |
 | ci-cd-working-browser.png   | ci-cd working in browser via Docker      |
 
-Screenshots are available in the Screenshots
+Screenshots are available in the Screenshots /Folder
 
 ---
 
