@@ -38,6 +38,10 @@ This setup mimics how real-world CI/CD pipelines work — just without relying o
 
 ci-cd-github-actions-docker/
 ├── .github/workflows/ci-cd.yml   # GitHub Actions workflow
+├── Screenshots
+         ├──  Ci-cd pipeline working.png
+         └── workflow.png
+         └──Ci-Cd all Working flow.png
 ├── docker/Dockerfile             # Dockerfile for the Node.js app
 ├── k8s/
 │   ├── deployment.yaml           # Kubernetes Deployment manifest
