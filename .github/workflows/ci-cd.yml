@@ -32,6 +32,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile   # ✅ FIXED: this must match your actual file path
+          file: ./Dockerfile 
           push: true
-          tags: shashikumar02/ci-cd-demo:latest  # ✅ FIXED: Replace with your real Docker Hub username
+          tags: shashikumar02/ci-cd-demo:latest
