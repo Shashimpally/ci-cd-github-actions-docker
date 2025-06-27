@@ -92,7 +92,7 @@ docker pull shashikumar02/ci-cd-demo:latest
 | app-in-browser.png   | App accessed via Minikube       |
 
 Screenshots are available in the screenshots/ folder.
-./Screenshots/Screenshot%202025-06-25%20110024.png
+(./Screenshots/Screenshot%202025-06-25%20110024.png)
 
 ---
 
