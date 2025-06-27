@@ -88,11 +88,10 @@ docker pull shashikumar02/ci-cd-demo:latest
 | Screenshot             | Description                     |
 | ---------------------- | ------------------------------- |
 | workflow-success.png | GitHub Actions pipeline success |
-| kubectl-get-pods.png | Kubernetes pod running          |
-| app-in-browser.png   | App accessed via Minikube       |
+| ci-cd-pipeline with Github action and docker.png | objective |
+| ci-cd-working-browser.png   | ci-cd working in browser via Docker      |
 
-Screenshots are available in the screenshots/ folder.
-[Screenshots/Screenshot%202025-06-25%20110024.png](https://github.com/Shashimpally/ci-cd-github-actions-docker/blob/main/Screenshots/Screenshot%202025-06-25%20110024.)
+Screenshots are available in the Screenshots
 
 ---
 
