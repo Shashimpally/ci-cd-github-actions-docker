@@ -1,19 +1,19 @@
 ![CI/CD Pipeline](https://github.com/shashimpally/ci-cd-github-actions-docker/actions/workflows/ci-cd.yml/badge.svg)
 
 
-# 🚀 CI/CD Pipeline with GitHub Actions & Docker
+#  CI/CD Pipeline with GitHub Actions & Docker
 
-This is a real-time DevOps project that demonstrates how to set up a full *CI/CD pipeline* using *GitHub Actions, **Docker, and **Minikube* (for local Kubernetes deployment). No cloud is needed — everything runs locally.
+This is a real-time DevOps project that demonstrates how to set up a full *CI/CD pipeline* using *GitHub Actions, **Docker, and **Localhost* (for localhost:4000 deployment). No cloud is needed — everything runs locally.
 
 ---
 
-## 📌 Project Objective
+##  Project Objective
 
 The main goal of this project is to:
 
 - Automate the process of building and testing code using GitHub Actions.
 - Create a Docker image and push it to Docker Hub.
-- Pull the Docker image and deploy it using Minikube (local Kubernetes).
+- Pull the Docker image and deploy it using Localhost (browser).
 
 This setup mimics how real-world CI/CD pipelines work — just without relying on any cloud infrastructure.
 
@@ -26,8 +26,7 @@ This setup mimics how real-world CI/CD pipelines work — just without relying o
 | *GitHub Actions* | Automate build, test, and Docker deployment      |
 | *Docker*         | Containerize the Node.js app                     |
 | *Docker Hub*     | Host and pull the Docker image                   |
-| *Minikube*       | Run Kubernetes cluster locally                   |
-| *Kubernetes*     | Deploy Docker image as a pod + expose as service |
+| *Localhost*       | Run localhost 4000                              |
 | *Node.js + Express* | Build a simple backend server app              |
 
 ---
@@ -51,9 +50,10 @@ ci-cd-github-actions-docker/
 ├── README.md                     # You're reading it!
 ├── REPORT.pdf                    # Final 2-page report
 ├── screenshots/                  # Output images of CI/CD flow
-│   ├── workflow-success.png
-│   ├── kubectl-get-pods.png
-│   └── app-in-browser.png
+│   ├── GitHub-repo-with-workflows.png
+│   ├── Docker image link.png
+│   ├── CI/CD workflow results.png 
+    └── Screenshots of the deployed app.pngs
 
 `
 
@@ -70,10 +70,9 @@ Triggers the GitHub Actions workflow.
 - ✅ Build Docker image
 - ✅ Push image to Docker Hub
 
-### 🔹 3. Local Deployment with Minikube
+### 🔹 3. Local Deployment with localhost:4000
 - Pull image from Docker Hub
-- Apply Kubernetes manifests
-- Run and expose the app locally
+- Run and expose the app localhost
 
 ---
 
@@ -91,9 +90,10 @@ docker pull shashikumar02/ci-cd-demo:latest
 
 | Screenshot             | Description                     |
 | ---------------------- | ------------------------------- |
-| workflow-success.png | GitHub Actions pipeline success |
-| ci-cd-pipeline with Github action and docker.png | objective |
-| ci-cd-working-browser.png   | ci-cd working in browser via Docker      |
+| GitHub repo with workflows.png | GitHub Actions pipeline success |
+| Docker image link.png | Docker image |
+| CI/CD workflow results.png   | ci-cd working in browser|
+| Screenshots of the deployed app.pngs  | Deployed app |deployed Healthy | Deployed api users |
 
 Screenshots are available in the Screenshots /Folder
 
