@@ -12,5 +12,18 @@
   "dependencies": {
     "dotenv": "^17.0.1",
     "express": "^4.21.2"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shashimpally/ci-cd-github-actions-docker.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Shashimpally/ci-cd-github-actions-docker/issues"
+  },
+  "homepage": "https://github.com/Shashimpally/ci-cd-github-actions-docker#readme"
 }
