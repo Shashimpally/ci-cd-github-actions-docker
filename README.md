@@ -103,4 +103,4 @@ Screenshots are available in the Screenshots /Folder
 
 * Fully automated CI/CD pipeline without using cloud.
 * Code tested, built into Docker image, and pushed to Docker Hub.
-* Image deployed locally using Kubernetes (Minikube).
+* Image deployed locally using  (localhost).
