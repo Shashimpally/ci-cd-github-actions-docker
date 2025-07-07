@@ -93,7 +93,7 @@ docker pull shashikumar02/ci-cd-demo:latest
 | GitHub repo with workflows.png | GitHub Actions pipeline success |
 | Docker image link.png | Docker image |
 | CI/CD workflow results.png   | ci-cd working in browser|
-| Screenshots of the deployed app.pngs  | Deployed app, deployed Healthy, Deployed api users |
+| Screenshots of the deployed app.pngs  | Deployed app, Deployed Healthy, Deployed api users |
 
 Screenshots are available in the Screenshots /Folder
 
