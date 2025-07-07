@@ -38,5 +38,4 @@ jobs:
           context: .
           file: ./docker/Dockerfile
           push: true
-          # 🔥 Replace `shashimpally` with your actual Docker Hub username if different
-          tags: shashimpally/ci-cd-demo:latest
+          tags: shashikumar02/ci-cd-demo:latest
